@@ -235,3 +235,21 @@ body{
 @media (max-width: 700px){
   .profile{ text-align: center; }
 }
+
+/* Uniform icon sizing */
+.icon-row{
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icon-row i{
+  font-size: 16px;   /* icon size */
+  line-height: 1;    /* remove extra vertical whitespace */
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
