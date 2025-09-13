@@ -261,3 +261,20 @@ body{
 }
 .icon-list > li{ list-style: none !important; }  /* extra safety */
 
+:root { --subhead-size: 1rem; }   /* 16px */
+
+.subtitle { font-size: var(--subhead-size); }
+
+/* Make the icon text match the subtitle size */
+.icon-list, .icon-row, .icon-list a { font-size: var(--subhead-size); }
+
+/* Make the icons themselves scale with the text size */
+.icon-row i{
+  font-size: 1em;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
