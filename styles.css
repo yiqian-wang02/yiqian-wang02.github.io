@@ -253,3 +253,11 @@ body{
   justify-content: center;
 }
 
+/* Remove bullets/indent for the icon list */
+.icon-list{
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 0.4rem 0 0;
+}
+.icon-list > li{ list-style: none !important; }  /* extra safety */
+
