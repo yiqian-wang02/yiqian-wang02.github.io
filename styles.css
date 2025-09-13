@@ -184,3 +184,53 @@ body{
 }
 .fangsong{ font-family: "MyFangSong", serif !important; }
 
+/* Profile column under the photo */
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitle{
+  margin: 0.6rem 0 0.2rem;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* Contact list with small icons */
+.icon-list{
+  list-style: none;
+  padding: 0;
+  margin: 0.4rem 0 0;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.icon-row{
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.icon-row:hover,
+.icon-row:focus{
+  color: var(--accent);
+}
+
+.icon{
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+}
+
+.icon svg{
+  width: 18px;
+  height: 18px;
+}
+
+/* Mobile: center the left column nicely when stacked */
+@media (max-width: 700px){
+  .profile{ text-align: center; }
+}
