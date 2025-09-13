@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Linguistics</title>
+  <meta name="description" content="Personal website for Your Name: research interests, CV, and recent news." />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">Your Name</a>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="cv.pdf">CV</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero">
+      <img src="assets/me.jpg" alt="Portrait of Your Name" class="avatar" />
+      <div class="intro">
+        <h1>Your Name</h1>
+        <p class="tagline">Linguistics PhD · Harvard University</p>
+        <p>
+          <strong>Research interests:</strong> Replace this with 2–3 short paragraphs about your work.
+          For example: I study semantics and pragmatics, including presupposition projection across
+          disjunction and how speakers manage undesired emotions in individual and collective settings.
+          I combine theoretical modeling with experimental methods and computational tools.
+        </p>
+        <p>
+          A second paragraph could sketch current projects, collaborations, or your methodological
+          focus. Keep it concise but informative.
+        </p>
+        <p class="buttons">
+          <a class="btn" href="cv.pdf">Download CV</a>
+          <a class="btn btn-secondary" href="#news">Latest news</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="news" class="news">
+      <h2>Announcements &amp; Recent Presentations</h2>
+      <ul class="news-list">
+        <li>
+          <time datetime="2025-09-23">September 23–27, 2025</time> —
+          Talk at <em>Sinn und Bedeutung 30</em> (Frankfurt): “Presupposition filtering in disjunction:
+          What role does exclusive interpretation play?”
+        </li>
+        <li>
+          <time datetime="2025-05-01">May 2025</time> —
+          Abstract accepted to XPRAG (title TBA).
+        </li>
+        <li>
+          <time datetime="2025-04-01">Spring 2025</time> —
+          Co-organizing Harvard’s Language and Cognition talk series.
+        </li>
+        <!-- Add your new items above this line as you go -->
+      </ul>
+      <p class="note">Tip: Edit this list directly in <code>index.html</code> to add new items.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>
+        <span class="sr-only">Contact:</span>
+        <a href="mailto:you@example.com">you@example.com</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Update footer year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
