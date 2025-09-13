@@ -175,3 +175,12 @@ body{
     sans-serif !important;   /* ensure it overrides other rules */
   font-weight: 600;
 }
+
+@font-face{
+  font-family: "MyFangSong";
+  src: url("assets/fonts/FangSong.woff2") format("woff2"),
+       url("assets/fonts/FangSong.woff") format("woff");
+  font-display: swap;
+}
+.fangsong{ font-family: "MyFangSong", serif !important; }
+
