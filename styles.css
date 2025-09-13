@@ -170,12 +170,8 @@ body{
 
 .han{
   font-family:
-    "PingFang SC",         /* macOS/iOS */
-    "Hiragino Sans GB",    /* older macOS */
-    "Microsoft YaHei",     /* Windows */
-    "Noto Sans CJK SC",    /* Linux/Android */
-    "Source Han Sans SC",
-    "SimSun",
-    sans-serif;
-  font-weight: 600;        /* adjust as you like */
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Noto Sans CJK SC", "Source Han Sans SC", "SimHei", "SimSun",
+    sans-serif !important;   /* ensure it overrides other rules */
+  font-weight: 600;
 }
