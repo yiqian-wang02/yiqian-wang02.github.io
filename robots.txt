@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yiqian-wang02.github.io/sitemap.xml
