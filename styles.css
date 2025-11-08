@@ -442,3 +442,20 @@ body{
   margin-top: .35rem;
 }
 
+/* Teaching page: make Syllabus pill match the course title size */
+.courses .course-links { margin: .25rem 0 0; }
+
+.courses .pill,
+.courses .course-links .pill{
+  font-size: 1.1rem;     /* same as .course-title */
+  line-height: 1.2;
+  padding: .05rem .5rem; /* tighter height */
+  border-width: 1px;     /* thinner outline */
+  border-radius: 999px;
+}
+
+@media (max-width: 700px){
+  .courses .pill { font-size: 1rem; }
+}
+
+
