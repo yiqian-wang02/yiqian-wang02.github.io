@@ -447,9 +447,9 @@ body{
 
 .courses .pill,
 .courses .course-links .pill{
-  font-size: 0.9 rem;     /* same as .course-title */
+  font-size: 0.9rem;     /* same as .course-title */
   line-height: 1.2;
-  padding: .05rem .5rem; /* tighter height */
+  padding: .2rem .5rem; /* tighter height */
   border-width: 1px;     /* thinner outline */
   border-radius: 999px;
 }
