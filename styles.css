@@ -332,3 +332,93 @@ body{
 }
 .pill:hover, .pill:focus { background: var(--card); }
 
+/* Page header */
+.page-header { margin: 1.25rem 0 1rem; }
+.kicker {
+  margin: 0 0 .25rem;
+  color: var(--muted);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-size: .9rem;
+}
+.topic-title {
+  margin: 0;
+  font-size: clamp(1.8rem, 2.4vw + 1rem, 2.6rem);
+  line-height: 1.2;
+}
+
+/* Overview cards */
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .75rem;
+  margin-bottom: 1rem;
+}
+.info-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: .8rem .9rem;
+}
+.info-card .label {
+  display: block;
+  font-size: .8rem;
+  color: var(--muted);
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  margin-bottom: .15rem;
+}
+.info-card .value { font-weight: 650; }
+
+/* Courses grid */
+.section-title { margin: .75rem 0 .5rem; }
+.course-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+}
+.course-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+}
+.course-title {
+  margin: 0 0 .35rem;
+  font-size: 1.1rem;
+  line-height: 1.35;
+}
+.course-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: .95rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem .6rem;
+  align-items: center;
+}
+.badge {
+  display: inline-block;
+  padding: .18rem .5rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: .82rem;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* Optional button/pill style (reused from talks page) */
+.pill {
+  display: inline-block;
+  padding: .28rem .6rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent);
+}
+.pill:hover, .pill:focus { background: var(--card); }
+
+
