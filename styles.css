@@ -454,6 +454,13 @@ body{
   border-radius: 999px;
 }
 
+/* space between buttons */
+.hero .course-links{
+  display: inline-flex;   /* keep them on one line */
+  gap: .6rem;             /* space between buttons */
+  flex-wrap: wrap;        /* wrap nicely on small screens */
+}
+
 @media (max-width: 700px){
   .courses .pill { font-size: 1rem; }
 }
