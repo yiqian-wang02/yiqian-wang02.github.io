@@ -485,3 +485,49 @@ body{
 }
 
 .talk-meta .meta2{ display: block; margin-top: .15rem; }
+
+.venue-grid{
+  list-style: none;
+  padding: 0;
+  margin: .4rem 0 0;
+  display: grid;
+  gap: .35rem;
+}
+.venue-grid li{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .75rem;
+  align-items: baseline;
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+.venue-left{
+  display: inline-flex;
+  gap: .5rem;
+  align-items: baseline;
+  min-width: 0;
+}
+
+.venue-badge{
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  padding: .12rem .4rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  background: var(--bg);
+  flex: 0 0 auto;
+}
+
+.venue-name{ min-width: 0; }
+.venue-where{
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px){
+  .venue-grid li{ grid-template-columns: 1fr; }
+  .venue-where{ white-space: normal; }
+}
