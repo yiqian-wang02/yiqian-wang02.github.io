@@ -477,4 +477,10 @@ body{
   text-transform: none;
 }
 
+/* Make the thin rule a bit more visible */
+.kicker.with-rule::after{
+  width: 64px;               /* was 48px */
+  height: 3px;               /* was 2px */
+  background: var(--accent); /* or try var(--accent) if you want it to pop */
+}
 
