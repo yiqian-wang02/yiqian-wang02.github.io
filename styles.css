@@ -531,3 +531,14 @@ body{
   .venue-grid li{ grid-template-columns: 1fr; }
   .venue-where{ white-space: normal; }
 }
+
+.year-chip{
+  display: inline-block;
+  margin-left: .4rem;
+  padding: .08rem .4rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: .85rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
