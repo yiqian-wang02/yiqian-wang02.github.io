@@ -484,3 +484,4 @@ body{
   background: var(--accent); /* or try var(--accent) if you want it to pop */
 }
 
+.talk-meta .meta2{ display: block; margin-top: .15rem; }
