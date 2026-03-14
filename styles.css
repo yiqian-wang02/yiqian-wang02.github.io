@@ -554,11 +554,15 @@ body{
 .talk-title-row{
   display: flex;
   align-items: baseline;
-  gap: .6rem;
+  gap: 1rem;
   flex-wrap: wrap;   /* so the button wraps nicely on small screens */
 }
 
 .pill-inline{
   font-size: .85em;     /* slightly smaller than the title */
   padding: .18rem .5rem;
+  font-weight: 500;    /* thinner than the default 600 */
+  letter-spacing: .02em;
 }
+
+.pill-inline{ position: relative; top: 1px; }
