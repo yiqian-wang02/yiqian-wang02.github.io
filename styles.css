@@ -550,3 +550,15 @@ body{
 @media (max-width: 700px){
   .venue-actions{ justify-self: start; margin-top: .25rem; }
 }
+
+.talk-title-row{
+  display: flex;
+  align-items: baseline;
+  gap: .6rem;
+  flex-wrap: wrap;   /* so the button wraps nicely on small screens */
+}
+
+.pill-inline{
+  font-size: .85em;     /* slightly smaller than the title */
+  padding: .18rem .5rem;
+}
