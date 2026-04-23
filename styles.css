@@ -566,3 +566,11 @@ body{
 }
 
 .pill-inline{ position: relative; top: 1px; }
+
+/* Misc page: field list with middot separators */
+.field-list {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.9;
+  margin: 0.5rem 0 0;
+}
